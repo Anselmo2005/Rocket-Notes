@@ -56,6 +56,8 @@ text-align: center;
 
 export const Search = styled.div`
 grid-area: search;
+padding: 64px 64px 0;
+
 
 
 `;
@@ -63,6 +65,8 @@ grid-area: search;
 export const Content = styled.div`
 
 grid-area: content;
+padding: 0 64px;
+overflow-y: auto;
 
 `;
 
