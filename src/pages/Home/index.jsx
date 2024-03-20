@@ -39,10 +39,9 @@ export function Home() {
             }}/>
             </Content>
  
-            <Newnote>
+            <Newnote to="/new">
                 <FiPlus></FiPlus>
                 Criar Notas
-
             </Newnote>
 
         </Container>
